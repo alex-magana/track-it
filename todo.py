@@ -3,6 +3,9 @@
 class todo(object):
     def init(self):
         pass
+    
+    def read_data(self, input):
+        return "get some input from x"
 
 def main():
     tdo = todo()
